@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegramm</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <!-- ========= tg-navbar ========= -->
+        <div class="row ">
+            <div class="d-none d-lg-block col-lg-4  col-xl-3 r-bg-dark py-1  border-right col-3-p">
+                    <div class="py-2 d-flex align-items-center">
+                        <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-color  mr-2" data-toggle="modal" data-target="#exampleModalLong">
+                        <span><i class="fas fa-bars"></i></span>
+                        </button>
+    
+                        <!-- Modal body -->
+                         <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                               
+                            <div class="modal-dialog modal-dialog-user"style="width: 310px; height: 400px;"  role="document">
+                                    <div class="modal-content modal-borer">
+                                    <div class="modal-header d-block ">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">
+                                            <span class="d-flex">
+                                                <img class="main-user" src="muslim.jpg" alt="rasm">
+                                                <span class="save-message"><i class="far fa-bookmark"></i></span>
+                                            </span>
+                                        </h5>
+                                       <div class="d-flex">
+                                           <div class="user-info">
+                                            <p class="user-name mt-3 m-0"> Muhammadrizo Yo'lbarsbekov</p>
+                                            <p class="user-name m-0">+998902531895</p>
+                                           </div>
+                                           <div class="account ml-4">
+                                            <a style="width: 30px;" class="btn btn-style text-light mt-5 btn-chevron" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fas fa-chevron-down "></i></a>
+                                           </div>
+                                       </div>
+                                    </div>
+
+                                    <div class="modal-body ">
+                                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                            <div class="card b-card card-body px-2 pb-2 pt-2">
+                                             <div class="row row-cols-2 border-none d-flex align-items-center justify-content-around">
+                                                <div class="col-3  text-center p-0">
+                                                    <img style="width: 35px;" class="main-user" src="muslim.jpg" alt="rasm">
+                                                  <span class="main-check"><i class="fas fa-check check"></i></span>
+                                                </div>
+                                                <div class="col-9 text-left p-0">
+                                                    <small class=" text-light" style="font-size: 16px;">Muhammadrizo Yo'lbarsbekov</small>
+                                                </div>
+                                                <div class="col-3 text-center mt-3">
+                                                    <i style="font-size: 35px;"  class="ml-2 far fa-user-circle text-secondary"></i>
+                                                </div>
+                                                <div class="col-9 text-left p-0 mt-3 mb-3 text-light">
+                                                    Add Account
+                                                </div>
+                                             </div>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="modal-footer px-2">
+                                       <div class="row row-cols-2">
+                        
+                                           <div class="col-2 mt-3"><i class="stl-icon text-secondary fas fa-user-friends"></i></div>
+                                           <div class="col-9 mt-3"><p class="text-light">New Group</p></div>
+
+                                           <div class="col-2 mt-3"><i class="stl-icon text-secondary fas fa-bullhorn"></i></div>
+                                           <div class="col-9 mt-3"><p class="text-light">New Channel</p></div>
+
+                                           <div class="col-2 mt-3"> <i class="stl-icon text-secondary far fa-user-circle"></i></div>
+                                           <div class="col-9 mt-3"><p class="text-light">Contacts</p></div>
+
+                                           <div class="col-2 mt-1"><i class="stl-icon text-secondary fas fa-phone-alt"></i></div>
+                                           <div class="col-9 mt-3"><p class="text-light">Calls</p></div>
+
+                                           <div class="col-2 mt-3"><i class="stl-icon text-secondary fas fa-cog"></i></div>
+                                           <div class="col-9 mt-3"><p class="text-light">Settings</p></div>
+
+                                           <div class="col-2 mt-3"><i class="stl-icon far fa-moon text-secondary"></i></div>
+                                           <div class="col-9 mt-3 d-flex justify-content-between">
+                                               <p class="text-light">Settings</p>
+                                               <div class="custom-control custom-switch">
+                                                <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                                                <label class="custom-control-label stl-switch" for="customSwitch1"></label>
+                                              </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    </div>
+                                </div> 
+                        </div>
+                        <!-- Modal body stoped -->
+                         <input class="form-control mr-sm-2 text-white" type="search" placeholder="Search" aria-label="Search">
+                         <span class="mr-2"><i class="fas fa-unlock"></i></span>
+                    </div>
+                   
+            </div>
+            <div class="col-lg-8 col-xl-6 r-bg-dark py-1  border-right d-flex border-bottom">
+                <div class="col-9">
+                    
+                   <div class="user-name">
+                    <div class="tab-content" id="nav-tabContent">
+
+                        <div class="tab-pane fade show text-light " id="s-messages" role="tabpanel" aria-labelledby="message">Saved Messages
+
+                        </div>
+
+                        <div class="tab-pane fade text-light " id="toga">
+                            <div class="d-lg-none">
+                                <i class="bi bi-arrow-left"></i>
+                            <img src="person_1.jpg" alt="rasm" class="user-img mx-3  ">
+                            </div>
+                           <div>
+                            Ahmedov Alisher 
+                            <p class="recently my-0 ">last sent recently</p>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade text-light "  id="siroch">
+                            <div class="d-lg-none">
+                                <i class="bi bi-arrow-left"></i>
+                            <img src="person_1.jpg" alt="rasm" class="user-img mx-3  ">
+                            </div>
+                           <div class="name-rec">
+                            Qoxxorov Sirojiddin 
+                            <p class="recently my-0 ">last sent recently</p>
+                           </div>
+                        </div>
+
+                        <div class="tab-pane fade text-light" id="domla" role="tabpanel" aria-labelledby="e-akam">
+                            <div class="d-lg-none">
+                                <i class="bi bi-arrow-left"></i>
+                            <img src="erkinaka.jpg" alt="rasm" class="user-img mx-3  ">
+                            </div>
+                           <div class="name-rec">
+                            Erkin aka 
+                            <p class="recently my-0 ">last sent recently</p>
+                           </div>
+                         </div>
+
+                        <div class="tab-pane fade text-light " id="jumanazar" role="tabpanel" aria-labelledby="jumanazar">
+                             <div class="d-lg-none">
+                            <i class="bi bi-arrow-left"></i>
+                            <img src="person_2.jpg" alt="rasm" class="user-img mx-3  ">
+                            </div>
+                            <div class="name-rec">
+                                Jumanazar ukam
+                                <p class="recently my-0 ">last sent recently</p>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade  text-light" id="a-akam" role="tabpanel" aria-labelledby="akmal">Akmal aka <p class="recently my-0">last sent recently</p></div>
+
+                        <div class="tab-pane fade text-light" id="kanal" role="tabpanel" aria-labelledby="a-kanal">Andijon Bugun (Rasmiy kanal)<p class="recently my-0">144 260 subscribers</p></div>
+
+                        <div class="tab-pane fade text-light" id="kanal-2" role="tabpanel" aria-labelledby="vb-kanal">Vodiy-bozor (Rasmiy kanal)<p class="recently my-0">404 329 subscribers</p></div>
+
+                        <div class="tab-pane fade text-light " id="guruh" role="tabpanel" aria-labelledby="gr">214-guruh AndMI E.E.E <p class="recently my-0">35 members</p></div>
+
+                        <div class="tab-pane fade text-light" id="ikrom-oshna" role="tabpanel" aria-labelledby="ikromjon">Ikromjon oshna <p class="recently my-0">last sent recently</p></div>
+
+                        <div class="tab-pane fade text-light" id="abdujalil" role="tabpanel" aria-labelledby="b-abdujalil">Abdujalil ukam <p class="recently my-0">last sent recently</p></div>
+                        
+                        
+                   </div>
+                   </div>
+                </div>
+                <div class="col-3 px-0">
+
+                       <ul class=" d-flex align-items-center justify-content-around icon-list m-0 p-0">
+                            <li class="nav-item mx-2">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telephone-fill text-secondary" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                </svg>
+                         </li>
+                         <li class="nav-item mx-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search text-secondary" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                </svg>
+                         </li>
+                         <li class="nav-item mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-layout-sidebar-reverse text-primary" viewBox="0 0 16 16">
+                                <path d="M16 3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3zm-5-1v12H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h9zm1 0h2a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-2V2z"/>
+                              </svg>
+                         </li>
+                         <li class="nav-item dropdown mx-2 mt-1">
+                            <a class="nav-link three-dots dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-three-dots-vertical text-secondary" viewBox="0 0 16 16">
+                                    <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                                  </svg>
+                            </a>
+                            <div class="dropdown-menu drop-menu">
+                              <a class="dropdown-item text-light" href="#">Action</a>
+                              <a class="dropdown-item text-light" href="#">Another action</a>
+                              <a class="dropdown-item text-light" href="#">Something else here</a>
+                              <a class="dropdown-item text-light" href="#">Separated link</a>
+                            </div>
+                          </li>
+                       </ul>                               
+                   
+                </div>
+            </div>
+            <div class="d-none d-xl-block col-xl-3 r-bg-dark d-none border-bottom py-1">
+              
+                    <div class="emoji-box nav nav-tabs d-flex left justify-content-around align-items-center"  id="nav-tab" role="tablist">
+
+                      <a class=" nav-item nav-link emoji" id="nav-emoji-tab" data-toggle="tab" href="#nav-emoji" role="tab" aria-controls="nav-home" aria-selected="true">EMOJI</a>
+                      <a class=" nav-item nav-link gifs" id="nav-gif-tab" data-toggle="tab" href="#nav-gif" role="tab" aria-controls="nav-profile" aria-selected="false">GIFS</a>
+                      <a class=" nav-item nav-link stickers" id="nav-stiker-tab" data-toggle="tab" href="#nav-stiker" role="tab" aria-controls="nav-contact" aria-selected="false">SRICKERS</a>
+                    </div>
+                 
+            </div>
+        </div>
+        <!-- ========= tg-navbar tygadi========= -->
+        <!-- ============ tg-main =================== -->
+        <div class=" row" style="order: -1;">
+            <div class="d-none d-lg-block col-lg-4  col-xl-3 r-bg-dark  pt-2 border-right scroll ">
+                <nav>
+                    <div class="nav nav-tabs flex-column" id="nav-tab" role="tablist">
+                            <a class="user-link nav-item nav-link active p-0 " id="message" data-toggle="tab" href="#s-messages" role="tab" aria-controls="nav-home" aria-selected="true">
+                                <div class="row save-mes">
+                                    <div class="col-3 p-0 text-center ">
+                                        <div class="img-box">
+                                            <i class="far fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 p-0 ">
+                                        <p class="m-0">Saved Messages</p>
+                                        <p class="m-0"><small>Lorem ipsum amet....</small></p>
+                                    </div>
+                                    <div class="col-3 p-0 ">
+                                        <u class="ml-4">Wen</u>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a class="user-link nav-item nav-link "  data-toggle="tab" data-target="#toga"  >
+                                <div class="row">
+                                    <div class="col-3 p-0 text-center "><img src="person_1.jpg" alt="rasm" class="user-img mx-auto"></div>
+                                    <div class="col-6 p-0 ">
+                                        <p class="m-0 text-light">Alisher Ahmedov</p>
+                                        <p class="m-0"><small><b>You:</b>Assalomu aleykum</small></p>
+                                    </div>
+                                    <div class="col-3 p-0 ">
+                                        <u><small> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check2-all text-primary " viewBox="0 0 16 16">
+                                            <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"/>
+                                            <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z"/>
+                                          </svg>14:12</small></u>
+                                    </div>
+                                </div>    
+                            </a>
+
+                            <a class="user-link nav-item nav-link"  data-toggle="tab" data-target="#siroch">
+                                <div class="row">
+                                    <div class="col-3 p-0 text-center ">
+                                        <img src="person_2.jpg" alt="rasm" class="user-img mx-auto">
+                                    </div>
+                                    <div class="col-6 p-0 ">
+                                        <p class="m-0 text-light">Qoxxorov Sirojiddin</p>
+                                        <p class="m-0"><small><b>You:</b> Aka qayerdasiz </small></p>
+                                    </div>
+                                    <div class="col-3 p-0 ">
+                                        <u><small> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check2-all text-primary" viewBox="0 0 16 16">
+                                            <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"/>
+                                            <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z"/>
+                                          </svg>14:12</small></u>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a class="user-link nav-item nav-link" id="e-akam" data-toggle="tab" href="#domla" role="tab" aria-controls="nav-contact" aria-selected="false">
+                            <div class="row">
+                                <div class="col-3 p-0 text-center ">
+                                    <img src="erkinaka.jpg" alt="rasm" class="user-img mx-auto">
+                                </div>
+                                <div class="col-6 p-0 ">
+                                    <p class="m-0">Erkin aka</p>
+                                    <p class="m-0"><small>Va aleykum assalom </small></p>
+                                </div>
+                                <div class="col-3 p-0 ">
+                                    <u class="ml-3"><small>14:12</small></u>
+                                </div>
+                            </div>    
+                            </a>
+
+                            <a class=" user-link nav-item nav-link" id="jumanazar" data-toggle="tab" href="#jumanazar" role="tab" aria-controls="nav-profile" aria-selected="false">
+                                <div class="row">
+                                    <div class="col-3 p-0 text-center ">
+                                        <img src="person_3.jpg" alt="rasm" class="user-img mx-auto">
+                                    </div>
+                                    <div class="col-6 p-0 ">
+                                        <p class="m-0">Jumanazar</p>
+                                        <p class="m-0"><small>Aka yaxshimisiz?  </small></p>
+                                    </div>
+                                    <div class="col-3 p-0 ">
+                                        <u class="ml-3"><small>14:12</small></u><br>
+                                        <span class="badge badge-secondary rounded-circle bg-primary ml-4">1</span>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a class="user-link nav-item nav-link" id="akmal" data-toggle="tab" href="#a-akam" role="tab" aria-controls="nav-contact" aria-selected="false">
+                                
+                                <div class="row">
+                                    <div class="col-3 p-0 text-center ">
+                                        <img src="person_4.jpg" alt="rasm" class="user-img mx-auto">
+                                    </div>
+                                    <div class="col-6 p-0 ">
+                                        <p class="m-0">Akmal aka</p>
+                                        <p class="m-0"><small>Yaxshi!!  </small></p>
+                                    </div>
+                                    <div class="col-3 p-0 ">
+                                        <u class="ml-3"><small>14:12</small></u>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="user-link nav-item nav-link " id="a-kanal" data-toggle="tab" href="#kanal" role="tab" aria-controls="nav-home" aria-selected="true">
+                                <div class="row">
+                                    <div class="col-3 p-0 text-center "><img src="andijon.jpg" alt="rasm" class="user-img mx-auto"></div>
+                                    <div class="col-6 p-0 ">
+                                        <p class="m-0"><i class="fas fa-bullhorn"></i>Andijon bugun</p>
+                                        <p class="m-0"><small>Juma muborak....</small></p>
+                                    </div>
+                                    <div class="col-3 p-0 ">
+                                        <u class="ml-3"><small>14:12</small></u>
+                                        <span class="badge badge-secondary rounded-circle bg-primary ml-4">54</span>
+                                    </div>
+                                </div>    
+                            </a>
+
+                            <a class="user-link nav-item nav-link " id="vb-kanal" data-toggle="tab" href="#kanal-2" role="tab" aria-controls="nav-home" aria-selected="true">
+                                <div class="row">
+                                    <div class="col-3 p-0 text-center "><img src="vodiy-b.jpg" alt="rasm" class="user-img mx-auto"></div>
+                                    <div class="col-6 p-0 ">
+                                        <p class="m-0"><i class="fas fa-bullhorn"></i>Vodiy bozor</p>
+                                        <p class="m-0"><small>Juma muborak....</small></p>
+                                    </div>
+                                    <div class="col-3 p-0 ">
+                                        <u class="ml-3"><small>18:12</small></u><br>
+                                        <span class="badge badge-secondary rounded-circle bg-secondary ml-4">24</span>
+                                    </div>
+                                </div>    
+                            </a>
+
+                            <a class="user-link nav-item nav-link " id="gr" data-toggle="tab" href="#guruh" role="tab" aria-controls="nav-home" aria-selected="true">
+                                <div class="row">
+                                    <div class="col-3 p-0 text-center "><img src="214.jpg" alt="rasm" class="user-img mx-auto"></div>
+                                    <div class="col-6 p-0 ">
+                                        <p class="m-0"><i class="fas fa-user-friends"></i>214-guruh AdnMI</p>
+                                        <p class="m-0"><small><b>Abzal aka:</b> Lorem ips.. </small></p>
+                                    </div>
+                                    <div class="col-3 p-0 ">
+                                        <u class="ml-3"><small>10:12</small></u>
+                                        <span class="badge badge-secondary rounded-circle bg-primary ml-4">14</span>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a class="user-link nav-item nav-link" id="ikromjon" data-toggle="tab" href="#ikrom-oshna" role="tab" aria-controls="nav-profile" aria-selected="false">
+                                <div class="row">
+                                    <div class="col-3 p-0 text-center ">
+                                        <img src="ikrom.jpg" alt="rasm" class="user-img mx-auto">
+                                    </div>
+                                    <div class="col-6 p-0 ">
+                                        <p class="m-0">Ikromjon oshna</p>
+                                        <p class="m-0"><small>Oshna yaxshimisiz?</small></p>
+                                    </div>
+                                    <div class="col-3 p-0 ">
+                                        <u class="ml-3"><small>14:12</small></u><br>
+                                        <span class="badge badge-secondary rounded-circle bg-primary ml-4">1</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="user-link nav-item nav-link" id="b-abdujalil" data-toggle="tab" href="#abdujalil" role="tab" aria-controls="nav-contact" aria-selected="false">
+                                <div class="row">
+                                    <div class="col-3 p-0 text-center ">
+                                        <img src="person_2.jpg" alt="rasm" class="user-img mx-auto">
+                                    </div>
+                                    <div class="col-6 p-0 ">
+                                        <p class="m-0">Abdujalil ukam</p>
+                                        <p class="m-0"><small><b>You:</b> Alhamdulillah</small></p>
+                                    </div>
+                                    <div class="col-3 p-0 ">
+                                        <u><small> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check2-all text-primary" viewBox="0 0 16 16">
+                                            <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"/>
+                                            <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z"/>
+                                          </svg>21:12</small></u>
+                                    </div>
+                                </div>
+                            </a>
+                    </div>
+                  </nav>
+            </div>
+            <!-- =====================tg chat display ========================= -->
+            <div class="col-lg-8 col-xl-6 r-bg-dark  scroll position-relative">
+         
+                <div class="tab-content" id="nav-tabContent"> 
+                    <!-- alisher -->
+                    <div class="tab-pane fade active text-light " id="toga" role="tabpanel" aria-labelledby="toga">
+                            <div class="col-12   chat-left mt-2 ">
+                                <div class="text-mess rounded">Assalomu aleykum
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea alias sit consequatur eos possimus suscipit eligendi quod magnam minima molestias. lorem1000 <span class="stl-mess"></span>
+                                <span class="time"> <small>11:15</small></span>
+                                </div>
+                                
+                            </div>
+                            <div class="col-12   d-flex justify-content-end  chat-right mt-2 ">
+                                <div class="text-mess-2 rounded  text-rigt">Assalomu aleykum
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea alias sit consequatur eos possimus suscipit eligendi quod magnam minima molestias. <span class="stl-mess-2"></span>
+                                    <span class="time"> <small class="time-left">11:20</small> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check2-all text-primary" viewBox="0 0 16 16">
+                                        <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"/>
+                                        <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z"/>
+                                      </svg></span>
+                                </div>
+                            </div>
+                            <div class="col-12  d-flex justify-content-end  chat-right mt-2">
+                                <div class="text-mess-2 rounded">Assalomu aleykum
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea alias sit consequatur eos possimus suscipit eligendi quod magnam minima molestias. <span class="stl-mess-2"></span>
+                                    <span class="time"> <small class="time-left">11:20</small> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check2-all text-primary" viewBox="0 0 16 16">
+                                        <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"/>
+                                        <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z"/>
+                                      </svg></span>
+                                </div>
+                            </div>
+                            <div class="col-12   chat-left mt-2">
+                                <div class="text-mess rounded">Assalomu aleykum
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea alias sit consequatur eos possimus suscipit eligendi quod magnam minima molestias. <span class="stl-mess"></span><span class="time"> <small>11:21</small></span></span>
+                                </div>
+                            </div>
+                            <div class="col-12   d-flex justify-content-end chat-right mt-2">
+                                <div class="text-mess-2 rounded">Assalomu aleykum
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea alias sit consequatur eos possimus suscipit eligendi quod magnam minima molestias. <span class="stl-mess-2"></span>
+                                    <span class="time"> <small class="time-left">11:23</small> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check2-all text-primary" viewBox="0 0 16 16">
+                                        <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"/>
+                                        <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z"/>
+                                      </svg></span>
+                                </div>
+                            </div>
+                            <div class="col-12   d-flex justify-content-end  chat-right mt-2 ">
+                                <div class="text-mess-2  text-rigt rounded">Assalomu aleykum
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea alias sit consequatur eos possimus suscipit eligendi quod magnam minima molestias. <span class="stl-mess-2"></span>
+                                    <span class="time"> <small class="time-left">11:24</small> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check2-all text-primary" viewBox="0 0 16 16">
+                                        <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"/>
+                                        <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z"/>
+                                      </svg></span>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12   d-flex justify-content-end  chat-right mt-2">
+                                <div class="text-mess-2 rounded">Assalomu aleykum
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea alias sit consequatur eos possimus suscipit eligendi quod magnam minima molestias. <span class="stl-mess-2"></span>
+                                    <span class="time"> <small class="time-left">11:25</small>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check2-all text-primary" viewBox="0 0 16 16">
+                                            <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"/>
+                                            <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z"/>
+                                          </svg>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-12   mt-3 d-flex justify-content-center">
+                                <div class="alert alert-color p-0 px-2" role="alert">
+                                    24-oktabr
+                                </div>
+                            </div>
+                            
+                            <div class="col-12   chat-left mt-2">
+                                <div class="text-mess">Assalomu aleykum
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea alias sit consequatur eos possimus suscipit eligendi quod magnam minima molestias. <span class="stl-mess"></span><span class="time"> <small>11:25</small></span></span>
+                                </div>
+                            </div>
+                            <div class="col-12   d-flex justify-content-end chat-right mt-2">
+                                <div class="text-mess-2">Assalomu aleykum
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea alias sit consequatur eos possimus suscipit eligendi quod magnam minima molestias. <span class="stl-mess-2"></span>
+                                    <span class="time"> <small class="time-left">11:30</small><i class="fas fa-check-double ml-3"></i></span>
+                                </div>
+                                
+                            </div>
+                            <div class="row  overflow-hidden">
+                                <div class="col-12   chat-left mt-2 ">
+                                    <div class="text-mess rounded">Assalomu aleykum
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea alias sit consequatur eos possimus suscipit eligendi quod magnam minima molestias. lorem1000 <span class="stl-mess"></span>
+                                    <span class="time"> <small>11:15</small></span>
+                                    </div>
+                                    
+                                </div>
+                            <div class="input-group fixed-bottom col-lg-8 offset-lg-4 col-xl-6 offset-xl-3 p-0  ">
+                                <div class="input-group-prepend">
+                                    <button class="btn bt-bg rounded-0" type="button" id="button-addon1"><i class="fas fa-paperclip"></i></button>
+                                </div>
+                                <input type="text" class="form-control input-type border-dark-left text-white " placeholder="Write a message ..." aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+                                <div class="input-group-append" id="button-addon4">
+                                <button class="btn bt-bg rounded-0" type="button"><i class="far fa-smile"></i></button>
+                                <button class="btn bt-bg rounded-0 border-right" type="button"><i class="fas fa-microphone"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+             <!-- =====================tg chat display tugadi ========================= -->
+            <div class="d-none d-xl-block col-xl-3 r-bg-dark d-none d-md-block p-3 scroll">
+                <div class="tab-content text-light" id="nav-tabContent">
+
+                    <div class="tab-pane fade show active" id="nav-emoji" role="tabpanel" aria-labelledby="nav-emoji-tab">
+                        <h3><i class="text-warning mt-3 ml-2 bi bi-emoji-angry-fill text-warning"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-dizzy-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-expressionless-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-frown-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-heart-eyes-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-laughing-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-neutral-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-upside-down-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-sunglasses-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-wink-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-dizzy-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-expressionless-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-frown-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-heart-eyes-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-laughing-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-neutral-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-upside-down-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-sunglasses-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-wink-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-dizzy-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-expressionless-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-frown-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-heart-eyes-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-laughing-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-neutral-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-upside-down-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-sunglasses-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-wink-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-dizzy-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-expressionless-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-frown-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-heart-eyes-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-laughing-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-neutral-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-upside-down-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-sunglasses-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-wink-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-dizzy-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-expressionless-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-frown-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-heart-eyes-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-laughing-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-neutral-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-upside-down-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-sunglasses-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-wink-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-dizzy-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-expressionless-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-frown-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-heart-eyes-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-laughing-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-neutral-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-upside-down-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-sunglasses-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-wink-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-dizzy-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-expressionless-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-frown-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-heart-eyes-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-laughing-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-neutral-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-upside-down-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-sunglasses-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-wink-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-dizzy-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-expressionless-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-frown-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-heart-eyes-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-laughing-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-neutral-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-upside-down-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-sunglasses-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-wink-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-dizzy-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-expressionless-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-frown-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-heart-eyes-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-laughing-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-neutral-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-upside-down-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-sunglasses-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-wink-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-dizzy-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-expressionless-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-frown-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-heart-eyes-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-laughing-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-neutral-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-upside-down-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-sunglasses-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-wink-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-dizzy-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-expressionless-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-frown-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-heart-eyes-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-laughing-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-neutral-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-upside-down-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-sunglasses-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-wink-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-dizzy-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-expressionless-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-frown-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-heart-eyes-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-laughing-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-neutral-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-upside-down-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-sunglasses-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-wink-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-dizzy-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-expressionless-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-frown-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-heart-eyes-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-laughing-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-neutral-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-upside-down-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-sunglasses-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-wink-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-dizzy-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-expressionless-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-frown-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-heart-eyes-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-laughing-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-neutral-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-smile-upside-down-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-sunglasses-fill"></i>
+                            <i class="text-warning mt-3 ml-2 bi bi-emoji-wink-fill"></i>
+                        </h3>
+                    </div>
+
+                    <div class="tab-pane fade" id="nav-gif" role="tabpanel" aria-labelledby="nav-gif-tab">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quam soluta quos nisi eveniet laudantium blanditiis ut doloremque assumenda voluptatibus magnam, voluptate ullam quaerat, corrupti rerum vero pariatur dolores hic?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quam soluta quos nisi eveniet laudantium blanditiis ut doloremque assumenda voluptatibus magnam, voluptate ullam quaerat, corrupti rerum vero pariatur dolores hic?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quam soluta quos nisi eveniet laudantium blanditiis ut doloremque assumenda voluptatibus magnam, voluptate ullam quaerat, corrupti rerum vero pariatur dolores hic?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quam soluta quos nisi eveniet laudantium blanditiis ut doloremque assumenda voluptatibus magnam, voluptate ullam quaerat, corrupti rerum vero pariatur dolores hic?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quam soluta quos nisi eveniet laudantium blanditiis ut doloremque assumenda voluptatibus magnam, voluptate ullam quaerat, corrupti rerum vero pariatur dolores hic?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quam soluta quos nisi eveniet laudantium blanditiis ut doloremque assumenda voluptatibus magnam, voluptate ullam quaerat, corrupti rerum vero pariatur dolores hic?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quam soluta quos nisi eveniet laudantium blanditiis ut doloremque assumenda voluptatibus magnam, voluptate ullam quaerat, corrupti rerum vero pariatur dolores hic?</p>
+                    </div>
+
+                    <div class="tab-pane fade" id="nav-stiker" role="tabpanel" aria-labelledby="nav-stiker-tab">
+                        <i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quam soluta quos nisi eveniet laudantium blanditiis ut doloremque assumenda voluptatibus magnam, voluptate ullam quaerat, corrupti rerum vero pariatur dolores hic?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quam soluta quos nisi eveniet laudantium blanditiis ut doloremque assumenda voluptatibus magnam, voluptate ullam quaerat, corrupti rerum vero pariatur dolores hic?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quam soluta quos nisi eveniet laudantium blanditiis ut doloremque assumenda voluptatibus magnam, voluptate ullam quaerat, corrupti rerum vero pariatur dolores hic?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quam soluta quos nisi eveniet laudantium blanditiis ut doloremque assumenda voluptatibus magnam, voluptate ullam quaerat, corrupti rerum vero pariatur dolores hic?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quam soluta quos nisi eveniet laudantium blanditiis ut doloremque assumenda voluptatibus magnam, voluptate ullam quaerat, corrupti rerum vero pariatur dolores hic?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quam soluta quos nisi eveniet laudantium blanditiis ut doloremque assumenda voluptatibus magnam, voluptate ullam quaerat, corrupti rerum vero pariatur dolores hic?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quam soluta quos nisi eveniet laudantium blanditiis ut doloremque assumenda voluptatibus magnam, voluptate ullam quaerat, corrupti rerum vero pariatur dolores hic?</p>
+                        </i>
+                    </div>
+                  </div>
+            </div>
+        </div>
+          <!--row tugadi  -->
+    </div>
+    
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    
+</body>
+</html>
